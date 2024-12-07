@@ -1,10 +1,28 @@
-# DevPod Go Example
+# Go REST API Example
 
-[![Open in DevPod!](https://devpod.sh/assets/open-in-devpod.svg)](https://devpod.sh/open#https://github.com/loft-sh/devpod-example-go)
+A RESTful API example using:
+- Gin (Web Framework)
+- GORM (ORM)
+- PostgreSQL (Database)
 
-## Quickstart
+## Features
+- User CRUD operations
+- Database integration
+- Error handling
+- Docker support
+- DevContainer configuration
 
-Either click on the 'Open in DevPod' link above or start via `devpod up github.com/loft-sh/devpod-example-go`. This will start a small devcontainer that has all the needed tools to start working on a go server.
-It will also serve static files on port 4000 and forward it to your local machine.
+## Setup
+1. Clone the repository
+2. Make sure you have Docker installed
+3. Run `devpod up` or open in VS Code with Dev Containers
+4. The API will be available at `http://localhost:4000`
 
-After creating your workspace, run `go run main.go` to start the server.
+## API Endpoints
+- GET /users - List all users
+- GET /users/:id - Get a specific user
+- POST /users - Create a new user
+- PUT /users/:id - Update a user
+- DELETE /users/:id - Delete a user
+
+## Environment Variables
