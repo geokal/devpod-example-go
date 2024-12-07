@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Go REST API Example
 
 A RESTful API example using:
@@ -26,3 +27,6 @@ A RESTful API example using:
 - DELETE /users/:id - Delete a user
 
 ## Environment Variables
+=======
+# devpod-example-go
+>>>>>>> 1df64a16ca5e0da02391587a2671ab34133ea149
